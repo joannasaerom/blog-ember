@@ -8,7 +8,8 @@ export default Ember.Component.extend({
         title: this.get('title'),
         author: this.get('author'),
         content: this.get('content'),
-        date: moment().format('LL')
+        date: moment().format('LL'),
+        edited: moment().format('LL h:mm:ss a')
       };
       this.sendAction('save', params);
       this.set('title', '');

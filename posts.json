@@ -3,12 +3,14 @@
       "title": "test",
       "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       "author": "test",
-      "date": "2016-10-22"
+      "date": "2016-10-22",
+      "edited": ""
     }, {
       "title": "test2",
       "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       "author": "test2",
-      "date": "2016-10-28"
+      "date": "2016-10-28",
+      "edited": ""
     }],
   "feedbacks": [{
     "name": "test",

@@ -3,5 +3,5 @@
 {{new-post save="save"}}
 
 {{#each model as |post|}}
-  {{post-tiles post=post update="update"}}
+  {{post-tiles post=post update="update" delete="destroyPost"}}
 {{/each}}
