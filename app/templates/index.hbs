@@ -1,0 +1,7 @@
+<h1>My blog</h1>
+
+{{new-post save="save"}}
+
+{{#each model as |post|}}
+  {{post-tiles post=post}}
+{{/each}}
