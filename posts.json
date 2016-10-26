@@ -11,11 +11,22 @@
       "author": "test2",
       "date": "2016-10-28",
       "edited": ""
-    }],
+  }],
+
   "feedbacks": [{
     "name": "test",
     "email": "test@gmail.com",
     "comment": "thisrocks",
     "date": "2016-11-23"
-    }]
+  }],
+
+  "users": [{
+    "name": "Sandro",
+    "username": "sandromateo",
+    "password": "annoyed..."
+  }, {
+    "name": "Joanna",
+    "username": "jsaerom",
+    "password": "happy!"
+  }]
 }

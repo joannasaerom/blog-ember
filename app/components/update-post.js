@@ -16,6 +16,7 @@ export default Ember.Component.extend({
         edited: moment().format('LL h:mm:ss a')
       };
       this.sendAction('update', post, params);
+      this.set('showUpdateForm', false);
       // this.set('title', '');
       // this.set('author', '');
       // this.set('content', '');
