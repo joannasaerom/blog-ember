@@ -2,9 +2,9 @@
 <h2>By {{model.author}} on {{model.date}}</h2>
 <h4>Last edited on {{model.edited}}</h4>
 <p>{{model.content}}</p>
-<hr>
 {{log model.content}}
 {{#each model.comments as |comment|}}
+  <hr>
   {{comment-tile comment=comment deleteComment="deleteComment"}}
 {{/each}}
 <hr>

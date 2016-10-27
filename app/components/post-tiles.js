@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  admin: Ember.inject.service('logged-in'),
   actions: {
     update(post, params){
       this.sendAction('update', post, params);

@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  admin: Ember.inject.service('logged-in'),
   model() {
     return this.store.findAll('post');
   },

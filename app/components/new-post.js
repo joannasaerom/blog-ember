@@ -2,6 +2,7 @@ import Ember from 'ember';
 import moment from 'moment';
 
 export default Ember.Component.extend({
+  admin: Ember.inject.service('logged-in'),
   actions: {
     save(){
       var params = {
