@@ -5,7 +5,7 @@
 <hr>
 {{log model.content}}
 {{#each model.comments as |comment|}}
-  {{comment-tile comment=comment}}
+  {{comment-tile comment=comment deleteComment="deleteComment"}}
 {{/each}}
 <hr>
 {{new-comment save="saveComment" post=model}}

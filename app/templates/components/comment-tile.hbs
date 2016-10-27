@@ -1,4 +1,5 @@
 <div class="comments">
   <h3>{{comment.content}}</h3>
   <p>From {{comment.author}}, on {{comment.date}}</p>
+  <i class="fa fa-trash" {{action 'deleteComment' comment}} aria-hidden="true"></i>
 </div>
