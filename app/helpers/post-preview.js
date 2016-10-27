@@ -9,7 +9,6 @@ export function postPreview(params/*, hash*/) {
     }
   }
   var finalPreview = preview.join("");
-  console.log(preview);
   return finalPreview;
 }
 
