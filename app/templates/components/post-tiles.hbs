@@ -8,8 +8,8 @@
       {{update-post post=post update="update"}}
     </div>
     <div class="col-xs-8">
-      <h2>{{post.title}}</h2>
-      <p>{{post.content}}</p>
+      {{#link-to 'post' post.id}}<h2>{{post.title}}</h2>
+      <p>{{post-preview post.content}}</p>{{/link-to}}
     </div>
   </div>
 </div>
