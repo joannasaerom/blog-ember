@@ -1,8 +1,15 @@
 <div class="well">
-  <h3>{{post.title}}</h3>
-  <h4>By {{post.author}}, {{post.date}}</h4>
-  <p>{{post.content}}</p>
-  <p>Last Edited: {{post.edited}}</p>
-  <i class="fa fa-trash" {{action 'delete' post}} aria-hidden="true"></i>
-  {{update-post post=post update="update"}}
+  <div class="row">
+    <div class="col-xs-4">
+      <h4 class="date">{{post.date}}</h4>
+      <h4>By {{post.author}}</h4>
+      <h5>Last Edited on {{post.edited}}</h5>
+      <i class="fa fa-trash" {{action 'delete' post}} aria-hidden="true"></i>
+      {{update-post post=post update="update"}}
+    </div>
+    <div class="col-xs-8">
+      <h2>{{post.title}}</h2>
+      <p>{{post.content}}</p>
+    </div>
+  </div>
 </div>
