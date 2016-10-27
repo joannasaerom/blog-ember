@@ -5,12 +5,14 @@ h1{
   font-family: 'Playfair Display', serif;
   font-size: 80px;
   text-align: center;
+  text-transform: uppercase;
+  color: #404040;
 }
 a{
   color: black;
 }
 a:hover, a:focus, a:active {
-  color: #18C9B7;
+  color: #2073BA;
   text-decoration: none;
 }
 .well{
@@ -42,18 +44,23 @@ form{
   width: 60%;
   margin: 0 auto;
 }
+.imgWidth{
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
 input, label{
   display: table-cell;
 }
 h4.date{
-  color: #18C9B7;
+  color: #2073BA;
   font-size: 25px;
   margin-top: 80px;
 }
 .btn{
   background-color: white;
-  color: #18C9B7;
-  border: 2px solid #18C9B7;
+  color: #2073BA;
+  border: 2px solid #2073BA;
   border-radius: 0px;
 }
 .btn:hover{
@@ -66,6 +73,21 @@ input{
   border: none;
   border-bottom: 1px solid black;
 }
-input:focus{
+input:focus, textarea:focus{
   outline: none;
+}
+.banner{
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.bannerText{
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 12%;
+  width: 70%;
+  border: 5px solid white;
+  background-color: rgba(255,255,255,0.6);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
